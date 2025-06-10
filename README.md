@@ -81,3 +81,20 @@ The .whl files of causal_conv1d and mamba_ssm could be found here. {[Baidu](http
       - .png
     - masks
       - .png
+
+## Acknowledgments
+
+We would like to express our gratitude to the following open-source projects and authors whose work greatly contributed to this project:
+
+- [VM-UNet](https://github.com/JCruan519/VM-UNet)  
+  Provided the implementation and key insights for integrating Vision Mamba-based architectures into our segmentation models.
+
+- [U2Net](https://github.com/xuebinqin/U-2-Net)  
+  Offered a well-documented reference implementation of deep nested U-shaped networks with residual U-blocks.
+
+- [TransUNet](https://github.com/Beckschen/TransUNet)  
+  Contributed Transformer-based UNet designs which inspired the global-local feature modeling in our framework.
+
+- Other original UNet-based and Transformer-based works cited in this project.
+
+We sincerely thank all researchers and developers in the open-source community whose work enables rapid progress in medical image analysis.
