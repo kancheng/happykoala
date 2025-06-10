@@ -22,7 +22,6 @@ class setting_config:
     else:
         raise Exception('datasets in not right!')
 
-    # criterion = BceDiceLoss2(wb=1, wd=1)
     criterion = nn.BCEWithLogitsLoss()
 
     pretrained_path = './pre_trained/'
@@ -150,9 +149,4 @@ class setting_config:
         T_mult = 2 # – A factor increases T_{i} after a restart. Default: 1.
         eta_min = 1e-6 # – Minimum learning rate. Default: 0.
         last_epoch = -1 # – The index of last epoch. Default: -1. 
-    elif sch == 'WP_MultiStepLR':
-        warm_up_epochs = 10
-        gamma = 0.1
-        milestones = [125, 225]
-    elif sch == 'WP_CosineLR':
-        warm_up_epochs = 20
+

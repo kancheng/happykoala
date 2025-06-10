@@ -19,16 +19,6 @@ class setting_config:
 
     test_weights = ''
 
-    # datasets = 'ISIC2017'
-    # if datasets == 'ISIC2017':
-    #     data_path = ''
-    # elif datasets == 'Spleen':
-    #     data_path = ''
-    # elif datasets == 'CVC-ClinicDB':
-    #     data_path = ''
-    # else:
-    #     raise Exception('datasets in not right!')
-
     datasets = 'isic18' 
     if datasets == 'isic18':
         data_path = './external/isic2018/'
@@ -36,7 +26,6 @@ class setting_config:
         data_path = './external/isic2017/'
     else:
         raise Exception('datasets in not right!')
-
 
     criterion = BceDiceLoss()
 
@@ -159,9 +148,3 @@ class setting_config:
         T_mult = 2 # – A factor increases T_{i} after a restart. Default: 1.
         eta_min = 1e-6 # – Minimum learning rate. Default: 0.
         last_epoch = -1 # – The index of last epoch. Default: -1. 
-    elif sch == 'WP_MultiStepLR':
-        warm_up_epochs = 10
-        gamma = 0.1
-        milestones = [125, 225]
-    elif sch == 'WP_CosineLR':
-        warm_up_epochs = 20
