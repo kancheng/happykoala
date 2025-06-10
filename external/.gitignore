@@ -1,10 +1,4 @@
-res_*
 .ipynb_checkpoints
-test-code/
-wandb/
-*.pth
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
