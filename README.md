@@ -11,6 +11,30 @@ This project integrates multiple **state-of-the-art architectures** including cl
 
 By providing a unified training and evaluation pipeline, HappyKoala facilitates **fair comparison, reproducibility**, and **rapid prototyping** of segmentation models.
 
+## OTTER Publication Note
+
+The **OTTER** submission has been accepted. The related code is located in the `ddpm/` directory. The segmentation part uses the code from this HappyKoala project. The remaining parts are still being organized...
+
+Haocheng Kan, Yuesheng Zhu, Guibo Luo, and Hanwen Zhang. OTTER: Optimized Training with Trustworthy Enhanced Replication via Diffusion and Federated VMUNet for Privacy-Aware Medical Segmentation [C]// Proceedings of the 27th International Conference on Information and Communications Security (ICICS). Nanjing, China: Springer Nature, October 2025. (CCF-C) DOI: 10.1007/978-981-95-3543-9_18
+
+```bibtex
+@inproceedings{kan2025otter,
+  title={OTTER: Optimized Training with Trustworthy Enhanced Replication via Diffusion and Federated VMUNet for Privacy-Aware Medical Segmentation},
+  author={Kan, Haocheng and Zhu, Yuesheng and Luo, Guibo and Zhang, Hanwen},
+  booktitle={Information and Communications Security: 27th International Conference, ICICS 2025, Nanjing, China, October 29--31, 2025, Proceedings, Part II},
+  pages={331--346},
+  year={2025},
+  organization={Springer},
+  doi={10.1007/978-981-95-3543-9_18}
+}
+```
+
+
+**Links:**
+- Paper: [https://dl.acm.org/doi/10.1007/978-981-95-3543-9_18](https://dl.acm.org/doi/10.1007/978-981-95-3543-9_18)
+- ICICS 2025 Accepted Papers: [https://www.icics2025.org/papers.html](https://www.icics2025.org/papers.html)
+
+
 ## Integrated Models
 
 - **UNet**  
