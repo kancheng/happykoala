@@ -1,4 +1,4 @@
-# HappyKoala 🐨
+# HappyKoala 🐨 & OTTER
 
 A unified segmentation benchmark integrating advanced models on ISIC 2018 dataset.
 
